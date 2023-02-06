@@ -24,13 +24,13 @@ class ResultActivity : AppCompatActivity() {
         var classificacao = if(result < 18.5f) {
             "ABAIXO DO PESO"
         }else if(result in 18.5f..24.99f) {
-            "NORMAL"
+            "PESO NORMAL"
         }else if(result in 25.0f..29.99f) {
-            "SOBREPESO I"
+            "ACIMA DO PESO"
         }else if(result in 30.0f..39.99f) {
-            "OBESIDADE"
+            "OBESIDADE GRAU I"
         }else{
-            "OBESIDADE GRAVE"
+            "OBESIDADE GRAU II"
         }
 
         tvClassificacao.text = getString(R.string.message_classificacao,classificacao)
@@ -40,5 +40,4 @@ class ResultActivity : AppCompatActivity() {
         finish()
         return super.onOptionsItemSelected(item)
     }
-
 }
