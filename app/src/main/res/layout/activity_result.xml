@@ -87,14 +87,7 @@
         android:layout_marginHorizontal="20dp"
         android:autoLink="web"
         android:linksClickable="true"
+        android:textStyle="italic"
         android:text="Pra saber mais sobre o IMC e como ele influencia na sua saúde, consulte um profissional."/>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:text="Obrigado por utilizar meu primeiro app ;)"
-        android:textAlignment="center"
-        android:textStyle="italic"/>
 
 </LinearLayout>
