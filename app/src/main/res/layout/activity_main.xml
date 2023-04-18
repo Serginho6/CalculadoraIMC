@@ -11,8 +11,10 @@
         android:id="@+id/imcIndex"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/imcindex"
-        android:layout_above="@id/btnCalcular"/>
+        android:layout_above="@id/btnCalcular"
+        android:layout_alignTop="@+id/edttext_altura"
+        android:layout_marginTop="-7dp"
+        android:src="@drawable/imcindex" />
 
     <TextView
         android:id="@+id/txtPreencha"
@@ -45,7 +47,7 @@
 
     <Button
         android:id="@+id/btnCalcular"
-        android:text="Calcular"
+        android:text="CALCULAR"
         android:textStyle="bold"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
